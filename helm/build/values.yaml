@@ -1,0 +1,15 @@
+app:
+  name: dkerov-poi-map-app
+  namespace: dkerov
+  cluster: .apps.summit23blues.6mbu.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus2/dkerov-frontend
+  org: Summit23Janus2
+  name: dkerov-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: dkerov/poi-map-app
+  tag: latest
